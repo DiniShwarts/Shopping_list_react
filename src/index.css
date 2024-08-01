@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* index.css */
+.checkout-button {
+  position: fixed;       /* מיקום קבוע ביחס לחלון הדפדפן */
+  top: -200px;             /* רווח של 20px מהקצה העליון */
+  right: -600px;           /* רווח של 20px מהקצה הימני */
+  background-color: #007bff; /* צבע רקע */
+  color: #fff;           /* צבע טקסט */
+  padding: 10px 20px;   /* ריפוד פנימי */
+  border-radius: 5px;   /* פינות עגלגלות */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* הצללה קלה */
+}
+
